@@ -18,7 +18,7 @@ The instructions are generally provided in advance by humans, commonly referred 
 Programmers write down these instructions in plain (i.e. unformatted) text using a language designed specifically for programming computers. 
 There are many such languages, each of which have their pros and cons.
 
-Just like natural languages (e.g. English, Chinese, Arabic, etc.), the popularity of programming languages follows a power law distribution: 
-most software is written in a few of the most popular languages and the others find only narrow adoption. 
+Just like natural languages (e.g. English, Chinese, Arabic, etc.), the popularity of programming languages follows a [power law distribution](https://betterexplained.com/articles/understanding-the-pareto-principle-the-8020-rule/): 
+most software is written in a few of the most popular languages and the others find only [narrow adoption](https://en.wikipedia.org/wiki/Long_tail). 
 However, instead of mastering just one or two popular languages, understanding how various concepts are expressed across several different languages 
 will make you a much better programmer.

@@ -12,3 +12,5 @@ All you need are:
 * a keen interest in learning how to create delightful software;
 * familiarity with elementary-school arithmetic;
 * enough time to read this document thoroughly and complete the experiments described within it.
+
+Start by reading about [how computers work](how-computers-work.md).

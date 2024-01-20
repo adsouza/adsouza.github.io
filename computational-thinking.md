@@ -22,3 +22,5 @@ Just like natural languages (e.g. English, Chinese, Arabic, etc.), the popularit
 most software is written in a few of the most popular languages and the others find only [narrow adoption](https://en.wikipedia.org/wiki/Long_tail). 
 However, instead of mastering just one or two popular languages, understanding how various concepts are expressed across several different languages 
 will make you a much better programmer.
+
+Now read about the principle of [abstraction](abstraction.md).

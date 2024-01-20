@@ -5,3 +5,5 @@ we use off to represent 0 and on to represent 1. We can group these bits into la
 
 The easiest things to represent are dichotomies (e.g. true/false, yes/no, up/down, north/south, etc.) because it takes only a single bit to represent them. 
 We call these booleans (in honour of [George Boole](http://en.wikipedia.org/wiki/George_Boole), a British Mathematician & Philosopher).
+
+Next up are [numbers](numbers.md).

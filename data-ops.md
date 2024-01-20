@@ -22,3 +22,5 @@ vision and hearing impairments may reduce or eliminate the effect of data presen
 Data may be deleted entirely after being used (e.g. SnapChat) or many copies of it may be transmitted to and stored in different places 
 (e.g. Google Drive, [BitTorrent](https://www.bittorrent.org/introduction.html), etc.). 
 Storing multiple copies of data is usually done to reduce the chances of losing it (i.e. backups) or to have more convenient access to it in each place (i.e. caches).
+
+Now read about the foundational [types of data](data-types.md).

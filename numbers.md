@@ -24,3 +24,5 @@ For both types of numbers, it is often up to the programmer to decide how many b
 For instance, while an 8-bit integer will suffice to count the number of days in a month, it will not suffice for counting the days in a year. 
 Using too many bytes may be inefficient but using too few can have far worse consequences if you need to store numbers too large to fit in the space you allocated for them 
 (e.g. the infamous [Y2K](https://en.wikipedia.org/wiki/Year_2000_problem) debacle); therefore it is better to err on the side of generosity.
+
+Numbers are great & all that but we also need [text](text.md).

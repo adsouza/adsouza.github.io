@@ -21,3 +21,5 @@ The core of any such computer (including smartphones) is a controller (in the CP
     1. Perform an arithmetic or logic operation on data in registers, which may have the effect of changing the value of a register.
     1. Store the result of the operation into memory if needed.
 1. Checking to see if any input hardware wants attention (i.e. an interrupt), in which case it must be handled appropriately before the next cycle can begin.
+
+Now read about [computational thinking](computational-thinking.md).

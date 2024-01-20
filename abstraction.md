@@ -13,3 +13,5 @@ The fundamental theorem of software engineering: any problem can be solved by ad
 except the problem of having too many layers of indirection. 
 When you get the humour behind that aphorism, you will truly understand how to build software. 
 For now, just keep in mind that a very common approach to solving problems involves decomposing them into a set of simpler problems.
+
+Now read about [operations on data](data-ops.md).

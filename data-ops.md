@@ -13,7 +13,7 @@ in case somebody wants an older version someday (e.g. the census).
 Data may be stored or transmitted in different forms from the original for various reasons such as these:
 * compressed for efficiency/performance (e.g. zip, PNG, AAC, etc.);
 * encrypted for security (e.g. SSL, FileVault, etc.);
-* simplified/translated for archival/presentation (e.g. PDF, HTML, [Unicode](http://www.joelonsoftware.com/articles/Unicode.html), etc.).
+* simplified/translated for archival/presentation (e.g. PDF, HTML, Unicode, etc.).
 
 Data may be presented to humans using output devices (e.g. display screens, speakers, etc.). 
 When presenting data to humans, it is important to be cognizant of differences between individuals in terms of sensory perception; 

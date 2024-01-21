@@ -10,9 +10,10 @@ In decimal we would express this range as 0 to 255 - every number system express
 To represent negative values, we can reserve one of those bits (generally the first one) for the sign (i.e. positive or negative). 
 This halves the magnitude of our range so that the maximum value is now 127 but the minimum is now -128 (instead of 0).
 
-As you might expect, we need to represent larger numbers than this! The easiest way to do that is by grouping bytes together into even larger sequences. 
+As you might expect, we need to represent larger numbers than this! 
+The easiest way to do that is by grouping bytes together into even larger sequences. 
 Each additional bit doubles the range of possible values: four octets give us 32 bits, which can represent numbers on the order of billions - 
-which are good enough for most things - while eight octets give us 64 bits, which can represent truly enormous numbers (e.g. grains of sand on Earth).
+good enough for most things - while eight octets give us 64 bits, which can represent truly enormous numbers (e.g. grains of sand on Earth).
 
 That works for integers but we often also need to represent fractional values. Humans typically represent these using a decimal point. 
 As it turns out, we can also represent these using a more complex approach known as [floating point](https://en.wikipedia.org/wiki/Floating_point). 

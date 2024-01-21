@@ -1,6 +1,8 @@
 # Numbers
-We must form groups of bits to represent numbers. Modern humans generally use a decimal numbering system (presumably because we tend to have 10 digits on our hands). 
-Computers use a [binary numbering system](https://en.wikipedia.org/wiki/Binary_number) (because that’s what you can represent with the 2 digits in which they represent data). 
+We represent numbers using groups of bits. 
+Modern humans generally use a decimal numbering system (presumably because we tend to have 10 digits on our hands). 
+Computers use a [binary numbering system](https://en.wikipedia.org/wiki/Binary_number) 
+(because that’s what you can represent with the 2 digits in which they represent data). 
 But they can translate to decimal when interacting with humans.
 
 The smallest grouping of bits used by modern computers is a sequence of bits known as a byte. 

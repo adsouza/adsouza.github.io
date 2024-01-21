@@ -1,6 +1,5 @@
 # Numbers
-We represent numbers using groups of bits. 
-Modern humans generally use a decimal numbering system (presumably because we tend to have 10 digits on our hands). 
+Humans typically have 10 digits on our hands so we use a decimal numbering system. 
 Computers have only 2 digits with which to form numbers so they use a [binary numbering system](https://en.wikipedia.org/wiki/Binary_number). 
 But they can translate to decimal when interacting with humans.
 

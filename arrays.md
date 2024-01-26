@@ -8,4 +8,4 @@ We refer to the content of words in memory using their (0-indexed) position in t
 The best thing about an array in RAM is that we can trivially & very quickly inspect or change a word anywhere within it as long as we know its position. 
 This makes arrays ideal for analysing or editing large quantities of identically structured data that have an obvious natural ordering.
 
-Common examples of such data include images, text corpora & statistical records.
+Common examples of such data include statistical records, images (grids of pixels), and text corpora. Speaking of which, let's see [how we represent text on computers](text.md).

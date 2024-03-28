@@ -16,7 +16,7 @@ Each additional bit doubles the range of possible values: four octets give us 32
 good enough for most things - while eight octets give us 64 bits, which can represent truly enormous numbers (e.g. grains of sand on Earth).
 
 That works for integers but we often also need to represent fractional values. Humans typically represent these using a decimal point. 
-As it turns out, we can also represent these using a more complex approach known as [floating point](https://floating-point-gui.de/formats/fp/). 
+As it turns out, we can also represent these using a more complex approach known as [floating point](https://ciechanow.ski/exposing-floating-point/). 
 That gives us the two types of numbers commonly used in computing: integers and floating point numbers. 
 Doubling the number of bits used to store an integer increases its capacity; 
 doing the same with floating point numbers increases their precision instead. 

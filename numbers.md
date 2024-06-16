@@ -12,6 +12,8 @@ This halves the magnitude of our range so that the maximum value is now 127 but 
 
 As you might expect, we need to represent larger numbers than this! 
 The easiest way to do that is by grouping bytes together into even larger sequences. 
+The second-smallest grouping of bits used by modern computers is known as a word, which is typically a power-of-two (e.g. 2, 4, 8) multiple of a byte. Today we commonly use words composed of eight bytes (i.e. 64 bits), although 32-bit words aren’t that rare & we still use 16-bit words on many [embedded systems](https://www.wikiwand.com/en/Embedded_system).
+
 Each additional bit doubles the range of possible values: four octets give us 32 bits, which can represent numbers on the order of billions - 
 good enough for most things - while eight octets give us 64 bits, which can represent truly enormous numbers (e.g. grains of sand on Earth).
 

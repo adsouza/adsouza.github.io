@@ -1,9 +1,10 @@
 # Text
 We represent text much as many natural languages do: 
-using sequences of _characters_ (e.g. A, ¶, Ñ, Æ, 鬱, 👩🏻‍❤️‍💋‍👨🏾) that are in turn composed of _graphemes_ (the smallest distinct meaningful units of writing); 
-some characters consist of a single grapheme (e.g. A, ¶) while others combine several (e.g. 鬱, 👩🏻‍❤️‍💋‍👨🏾).
+using sequences of _characters_ (e.g. A, €, Ñ, Æ, क्ष, 공, นั่, 鬱, ♬, ⭐, 𓂀, 👩🏻‍❤️‍💋‍👨🏾) that are in turn composed of _graphemes_ (the smallest distinct meaningful units of writing); 
+some characters consist of a single grapheme (e.g. A, €, ♬, ⭐, 𓂀) while others combine two (e.g. Ñ, Æ, อ์), three (e.g. क्ष, 공, นั่) or even several (e.g. 鬱, 👩🏻‍❤️‍💋‍👨🏾).
 
-[Unicode](https://www.joelonsoftware.com/articles/Unicode.html) is the best and most ubiquitous method for mapping graphemes (and some precomposed characters) to integers that can then be encoded as sequences of bytes. 
+[Unicode](https://www.joelonsoftware.com/articles/Unicode.html) is the best and most ubiquitous _character set_: 
+a method for mapping graphemes (and some precomposed characters) to integers that can then be encoded as sequences of bytes. 
 It contains integer mappings for graphemes that can represent all living scripts as well as many historical ones, 
 various symbols (e.g. math, music, transport, science, games), emoji, etc. 
 A small number (up to 4) of bytes can encode each integer. 

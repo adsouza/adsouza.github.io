@@ -1,13 +1,13 @@
 # Text
 We represent text much as many natural languages do: 
-using sequences of _characters_ (e.g. A, €, Ñ, Æ, क्ष, 공, นั่, 鬱, ♬, ⭐, 𓂀, 👩🏻‍❤️‍💋‍👨🏾) that are in turn composed of _graphemes_ (the smallest distinct meaningful units of writing); 
-some characters consist of a single grapheme (e.g. A, €, ♬, ⭐, 𓂀) while others combine two (e.g. Ñ, Æ, อ์), three (e.g. क्ष, 공, นั่) or even several (e.g. 鬱, 👩🏻‍❤️‍💋‍👨🏾).
+using sequences of _characters_ (e.g. A, €, Ñ, Æ, क्ष, 공, นั่, 鬱, ♬, ⭐, 🇨🇦, 𓂀, 👩🏻‍❤️‍💋‍👨🏾, ﷺ) that are in turn composed of _graphemes_ (the smallest distinct meaningful units of writing); 
+some characters consist of a single grapheme (e.g. A, €, ♬, ⭐, 𓂀) while others combine two (e.g. Ñ, Æ, อ์, 🇨🇦), three (e.g. क्ष, 공, นั่) or even several (e.g. 鬱, 👩🏻‍❤️‍💋‍👨🏾, ﷺ).
 
 [Unicode](https://www.joelonsoftware.com/articles/Unicode.html) is the best and most ubiquitous _character set_: 
-a method for mapping graphemes (and some precomposed characters) to integers that can then be encoded as sequences of bytes. 
+a method for mapping between graphemes (and some precomposed characters) and integers (AKA scalar values). 
 It contains integer mappings for graphemes that can represent all living scripts as well as many historical ones, 
 various symbols (e.g. math, music, transport, science, games), emoji, etc. 
-A small number (up to 4) of bytes can encode each integer. 
+Each of the integers can be encoded by a small number (up to 4) of bytes. 
 
 Some older software uses a legacy mapping called ASCII, which uses a single byte per character and only works for a few scripts - it doesn’t even allow mixing text from multiple scripts. 
 

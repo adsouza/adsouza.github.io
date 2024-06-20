@@ -1,11 +1,11 @@
 # Text
 We represent text, at a high level, much as many natural languages do: 
-using sequences of "_characters_" (e.g. A, €, Ñ, Æ, ﬃ, क्ष, 공, นั่, 鬱, ♬, ⭐, 🇨🇦, 𓂀, 👩🏻‍❤️‍💋‍👨🏾, Ǫ̵̹̻̝̳͂̌̌͘, ﷺ) 
+using sequences of "_characters_" (e.g. A, €, Ñ, Æ, ﬃ, क्ष, 공, นั่, 鬱, ♬, ⭐, 🇨🇦, 𓂀, 🏴‍☠️, 👩🏻‍❤️‍💋‍👨🏾, Ǫ̵̹̻̝̳͂̌̌͘, ﷺ) 
 that are in turn composed of _graphemes_ (the smallest distinct meaningful units of writing); 
 some characters consist of a single grapheme (e.g. A, €, ♬, ⭐, 𓂀) while 
-others combine two (e.g. Ñ, Æ, อ์, 🇨🇦), three (e.g. ﬃ, क्ष, 공, นั่) or even several (e.g. 鬱, 👩🏻‍❤️‍💋‍👨🏾, Ǫ̵̹̻̝̳͂̌̌͘, ﷺ).
+others combine two (e.g. Ñ, Æ, อ์, 🇨🇦), three (e.g. ﬃ, क्ष, 공, นั่, 🏴‍☠️) or even several (e.g. 鬱, 👩🏻‍❤️‍💋‍👨🏾, Ǫ̵̹̻̝̳͂̌̌͘, ﷺ).
 
-[Unicode](https://www.joelonsoftware.com/articles/Unicode.html) is the best and most ubiquitous _character set_: 
+[Unicode](https://www.joelonsoftware.com/articles/Unicode.html) is the most comprehensive and ubiquitous _character set_: 
 a method for mapping between graphemes (and some precomposed characters) and integers (AKA scalar values). 
 It contains integer mappings for graphemes that can represent all living scripts as well as many historical ones, 
 various symbols (e.g. math, music, transport, science, games), emoji, etc. 
@@ -19,7 +19,7 @@ In the parlance of computer science and software development, sequences of chara
 Unlike natural languages, computers do not typically group characters into increasingly more complex sequences like phrases, sentences and paragraphs. 
 That said, we often refer to smaller segments of a string as substrings.
 
-We store the sequence of bytes that comprise a string in an _array_ (contiguous chunk of memory). 
+We can store the sequence of bytes that comprise a string in an _array_ (contiguous chunk of memory). 
 _Recall that each element of an array can be addressed by its position in the sequence (typically starting at 0)._
 Arrays have one primary downside: once created, their capacity cannot be changed. 
 This means that, once created, strings cannot be lengthened in-place.

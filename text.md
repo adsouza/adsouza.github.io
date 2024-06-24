@@ -3,7 +3,7 @@ We represent text, at a high level, much as many natural languages do: using seq
 the smallest distinct meaningful units of writing (e.g. A, €, Ñ, Æ, ﬃ, क्ष, 공, นั่, 鬱, ♬, ⭐, 🇨🇦, 𓂀, 🏴‍☠️, 👩🏻‍❤️‍💋‍👨🏾, Ǫ̵̹̻̝̳͂̌̌͘, ﷺ), 
 which are in turn composed of "_characters_"; 
 some graphemes consist of a single character (e.g. A, €, ♬, ⭐, 𓂀) while 
-others combine two (e.g. Ñ, Æ, อ์, 🇨🇦), three (e.g. ﬃ, क्ष, 공, นั่, 🏴‍☠️) or even several (e.g. 鬱, 👩🏻‍❤️‍💋‍👨🏾, Ǫ̵̹̻̝̳͂̌̌͘, ﷺ).
+others combine two (e.g. Ñ, Æ, อ์, 🇨🇦), three (e.g. ﬃ, क्ष, 공, นั่, 🏴‍☠️) or even several (e.g. 鬱, 👩🏻‍❤️‍💋‍👨🏾, Ǫ̵̹̻̝̳͂̌̌͘, ﷺ) upto a max of 31.
 
 [Unicode](https://www.joelonsoftware.com/articles/Unicode.html) is the most comprehensive and ubiquitous _character set_: 
 a method for mapping between characters (including some precomposed/composite ones) and integers (AKA scalar values). 
@@ -32,3 +32,6 @@ Alternatively, the length of the string may be stored along with its content for
 This length never needs to be updated if we can never change the _number_ of graphemes or characters in a string.
 Often we want to go even further & never modify the bytes in strings at all. 
 The term used to describe data that can never be changed is **immutable** - as opposed to mutable.
+
+The types of data we've considered so far (e.g. boolean, numeric, text) can be combined to create even more useful ways of organizing data. 
+We refer to those as _composite_ types. Let us next consider [sum types](sum-types.md).

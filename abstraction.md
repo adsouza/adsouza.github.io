@@ -6,7 +6,7 @@ CPU cycles, memory, storage, I/O bandwidth & latency.
 1. Earlier, at design-time (i.e. while the software is being written by programmers),
    the constraints are imposed by the maximum amount of complexity a human mind is capable of holding:
    most people can hold items in [chunks](https://en.wikipedia.org/wiki/Chunking_(psychology)) of at most three within their working memory;
-   in any useful software the number of both instructions & data elements is highly likely to be far higher than three;
+   in any useful software the number of both instructions & [data _elements_](https://www.wikiwand.com/en/Data_element) is very likely to exceed three;
    therefore our only hope for being able to reason about non-trivial software is by using [abstraction](https://tomstu.art/a-lever-for-the-mind)
    to encapsulate software into self-contained modules that interact with each other.
 

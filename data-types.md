@@ -8,4 +8,43 @@ The easiest things to represent are dichotomies (e.g. true/false, yes/no, up/dow
 because it takes only a single bit to represent them. 
 We call these booleans (in honour of [George Boole](http://en.wikipedia.org/wiki/George_Boole), a British Mathematician & Philosopher).
 
+Here are examples of creating a boolean value in different (programming) languages:
+
+<details>
+  <summary>C</summary>
+
+  ```c
+  #include <stdbool.h>
+
+  bool isAlive = true;
+  ```
+
+</details>
+<details>
+  <summary>Python</summary>
+
+  ```py
+  from typing import bool
+
+  is_alive: bool = True
+  ```
+
+</details>
+<details>
+  <summary>Java</summary>
+
+  ```java
+  boolean isAlive = true;
+  ```
+
+</details>
+<details>
+  <summary>TypeScript</summary>
+
+  ```ts
+  let isAlive: boolean = true;
+  ```
+
+</details>
+
 Next up are [numbers](numbers.md).
